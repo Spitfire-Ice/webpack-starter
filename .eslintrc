@@ -1,0 +1,17 @@
+{
+    "env": {
+        "jquery" : true
+    },
+    "extends": "airbnb",
+    "globals": {
+        "window": true,
+        "document": true
+    },
+    "plugins": [
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "no-new": "off"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [true, {
+      "severity": "warning"
+    }],
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [ "always", {
+      "ignore": ["stylelint-commands", "after-comment"]
+    } ],
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "unit-whitelist": ["px", "vh", "vw", "deg", "em", "rem", "ms", "%", "s"]
+  }
+}
