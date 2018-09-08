@@ -1,8 +1,8 @@
 {
-  "name": "bee-dream-landing",
+  "name": "Template",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Yaroslav",
+  "author": "Vladyslav",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
